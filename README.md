@@ -1,2 +1,1 @@
-# spiders
 simple spiders
