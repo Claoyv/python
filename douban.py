@@ -16,7 +16,7 @@ def get_page(url):
     try:
         res = requests.get(url,headers=headers)
         if res.status_code == 200:
-            res.encoding='utf-8'
+#            res.encoding='utf-8'
             return res.text
     except RequestException:
         return None
